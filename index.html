@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOTO Portfolio Website</title>
+    <!-- Google Fonts Montesarat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
+    <!-- icons scout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- SWIPERJS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- CUSTOM STYLE SHEET -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo"> <img src="/Images/logo.png" alt="Nav logo"> </a>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibition</a></li>
+            </ul>
+            <ul class="nav__socials">
+                <li><a href="https://instagram.com/" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
+                <li><a href="https://Youtube.com/" target="_blank"> <i class="uil uil-youtube"></i> </a></li>
+                <li><a href="https://Twitter.com/" target="_blank"><i class="uil uil-twitter"></i></a></li>
+            </ul>
+            <button class="nav__toggle__button" id="nav__btn__open"><i class="uil uil-bars"></i></i> </button>
+            <button class="nav__toggle__button" id="nav__btn__close"> <i class="uil uil-times"></i> </button>
+        </div>
+    </nav>
+
+    <!-- ==================== END OF NAV ================== -->
+    
+<header>
+    <div class="container header__container">
+        <div class="header__left">
+            <div class="header__img-bg"></div>
+            <div class="header__img-lg">
+                <img src="/Images/header.jpg" alt="Header image">
+            </div>
+            <div class="header__img-sm">
+                <img src="/Images/header.jpg" alt="Header image">
+            </div>
+        </div>
+        <div class="right">
+            <div class="header__head">
+                <div class="empty header__empty"></div>
+                <a class="header__tag">#Best Travel Photographer</a>
+            </div>
+            <h1> See The Beauty of The World Through My Lense </h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, aliquam. Necessitatibus fugit temporibus magni? Adipisci ratione necessitatibus quo eaque! Quibusdam deserunt assumenda ex porro, dignissimos rem dolore explicabo officiis nostrum?
+            </p>
+            <a href="mailto:mohamedryaz.a@gmail.com" class="header__btn-md">Let's Talk</a>
+        </div>
+    </div>
+</header>
+<div class="header__frames">
+    <div class="header__frame">
+        <img src="/Images/frame1.jpg" alt="Header Frame One">
+    </div>
+    <div class="header__frame">
+        <img src="/Images/frame2.jpg" alt="Header Frame Two">
+    </div>
+</div>
+<a href="mailto:mohamedryaz.a@gmail.com" class="contact__btn header__btn">
+    <i class="uil uil-arrow-up-right"></i>
+    <p>CONTACT - SEND ME AN EMAIL</p>
+</a>
+<!-- ================= END OF THE HEADER SECTION ====================== -->
+
+<section id="about">
+    <div class="container about__container">
+        <h2 class="about__title">About <br> Diana Ayi</h2>
+        <a href="mailto:mohamedryaz.a@gmail.com" class="contact__btn about__btn"><i class="uil uil-arrow-up-right"></i>
+            <p>CONTACT - SEND ME AN EMAIL</p>
+        </a>
+        <div class="about__image">
+            <div class="about__image-bg"></div>
+            <div class="about__image-lg">
+                <img src="/Images/about.jpg" alt="About Diana Ayi">
+            </div>
+            <div class="about__image-sm">
+                <img src="/Images/about.jpg" alt="About Diana Ayi">
+            </div>
+        </div>
+        <div class="about__right">
+            <div class="empty__about"></div>
+            <p> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati dolores recusandae, debitis commodi saepe fugiat porro officia excepturi temporibus eveniet iusto odio rerum neque nisi. Delectus natus dignissimos nesciunt? 
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, tenetur. Id harum veniam alias, ratione aperiam laudantium beatae dicta dolorem architecto tenetur provident ipsa reiciendis assumenda, expedita, non tempora voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quae quaerat soluta culpa. Nihil sint sit odio! Labore consequatur tenetur ea fugit quidem quasi, fugiat ipsam qui laborum ex excepturi!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quae quaerat soluta culpa. Nihil sint sit odio! Labore consequatur tenetur ea fugit quidem quasi, fugiat ipsam qui laborum ex excepturi!
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ======================== END OF ABOUT ========================== -->
+
+<section id="gallery">
+    <div class="container gallery__container swiper mySwiper">
+        <div class="gallery__head">
+            <h2 class="gallery__title">My Gallery</h2>
+            <div class="empty gallery__empty"></div>
+        </div>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore officia magnam temporibus odio, libero totam dolores quibusdam nisi aliquam fugit? Autem velit fugit nisi eaque odit amet architecto, sapiente quasi!
+        </p>
+        <div class="swiper-wrapper">
+            <article class="swiper-slide">
+                <img src="/Images/gallery1.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="/Images/gallery2.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="/Images/gallery3.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="/Images/gallery4.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="/Images/gallery5.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="/Images/gallery6.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="/Images/gallery7.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="/Images/gallery8.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="/Images/gallery10.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="/Images/gallery11.jpg">
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- ================= END OF GALLERY ====================== -->
+
+<section id="exhibitions">
+    <div class="container exhibitions__container">
+        <h2 class="exhibitions__title">Exhibitions</h2>
+        <div class="empty exhibitions__empty"></div>
+        <div class="exhibitions__head">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quaerat quis cum quasi molestiae mollitia, tenetur pariatur iste ut obcaecati repellendus vitae inventore impedit amet, illo nostrum quibusdam consequuntur similique.
+            </p>
+            <a href="mailto:mohamedryaz.a@gmail.com" class="contact__btn exhibitions__btn">
+                <i class="uil uil-arrow-up-right"></i>
+                <p>CONTACT - SEND ME AN EMAIL</p>
+            </a>
+        </div>
+        <div class="exhibitions__gallery">
+            <article><img src="/Images/ev.jpg" alt=""></article>
+            <article><img src="/Images/e1.jpg" alt=""></article>
+            <article><img src="/Images/e2.jpg" alt=""></article>
+            <article><img src="/Images/eh.jpg" alt=""></article>
+            <article><img src="/Images/e3.jpg" alt=""></article>
+            <article><img src="/Images/e4.jpg" alt=""></article>
+            <article><img src="/Images/e5.jpg" alt=""></article>
+        </div>
+    </div>
+</section>
+
+<!-- ================= END OF EXHIBITIONS ====================== -->
+
+<footer>
+    <div class="container footer__container">
+       <div class="footer__head">
+        <h2 class="footer__title">Support Mohamedriyaz.com</h2>
+        <a href="maito:mohamedryaz@gmail.com" class="footer__btn"><i class="uil uil-arrow-up-right"></i></a>
+       </div>
+       <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#exhibitions">Exhibition</a></li>
+       </ul>
+    </div>
+</footer>
+
+
+
+
+
+<!-- /SWIPERJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
